@@ -10,7 +10,7 @@ The project has 3 phases (no pun intended!):
 ### Contents
 There are 2 files containing the circut. The first one: 'multi-wave-osc' is the basic 'default' circuit built with LTspice's Universal Opamp 2 components. The second one 'multi-wave-sc-lt1364' is the 'main' circuit for testing and prototyping. Fundamentally, they are the same circuit but with some minor differences to account for the behavior of the op-amps used.
 
-The images folder contains images of the circuit developed and will, in the future, include more relevant images, such as the waveforms, etc.
+The images folder contains images of the circuit developed and will, in the future, include more relevant images, such as the waveforms, spectrum analysis, etc.
 
 Work in progress: more info will be added shortly along with the project updates.
 
