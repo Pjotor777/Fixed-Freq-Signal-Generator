@@ -26,4 +26,4 @@ Work in progress
 Work in progress
 
 ## Future Work
-Once the project is (at least, mostly) complete, I plan on possibly making a 'version 2' of the signal generator, including better methods of waveform generation, using potentiometers to allow for lower and higher frequencies (and amplitudes? if that is even possible) and more advanced waveforms found in modern signal generators.
+Once the project is (at least, mostly) complete, I plan on possibly making a 'version 2' of the signal generator, including more robust methods of waveform generation, using potentiometers to allow for lower and higher frequencies (and amplitudes? if that is even possible) and more advanced waveforms found in modern signal generators.
