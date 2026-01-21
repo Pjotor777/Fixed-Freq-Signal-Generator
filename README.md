@@ -3,7 +3,7 @@
 A basic analog signal generator circuit that generates the 4 fundamental waveforms (Square, Sine, Triangular and Sawtooth). The generator was built using only passive components (resistors, capacitors and diodes) and operational amplifiers. The generator has a fixed frequency (phase locked) at 1 kHz.
 
 The project has 3 phases (no pun intended!): 
-1. Theoretical learning and design via LTspice (Current phase, 90% complete).
+1. Theoretical learning and design via LTspice (Current phase, 99% complete).
 2. Prototyping in a laboratory environment.
 3. Developing the hardware as a PCB via KiCad.
 
