@@ -4,7 +4,7 @@ A basic analog signal generator circuit that generates the 4 fundamental wavefor
 
 The project has 3 phases (no pun intended!): 
 1. Theoretical learning and design via LTspice (Current phase, 90% complete).
-2. Prorotyping in a laboratory environment.
+2. Prototyping in a laboratory environment.
 3. Developing the hardware as a PCB via KiCad.
 
 ### Contents
