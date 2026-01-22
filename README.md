@@ -25,5 +25,8 @@ Work in progress
 ### Sawtooth Wave Generator
 Work in progress
 
+## Images
+All relevant images can be found in the 'images' folder. The folder contains images of the 2 circuits, the waveform outputs of each oscillator (outputs based off the 'main circuit') and the spectrum analysis (FFT plots) of all waveforms together.
+
 ## Future Work
 Once the project is (at least, mostly) complete, I plan on possibly making a 'version 2' of the signal generator, including more robust methods of waveform generation, using potentiometers to allow for lower and higher frequencies (and amplitudes? if that is even possible) and more advanced waveforms found in modern signal generators.
