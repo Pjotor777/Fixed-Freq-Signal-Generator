@@ -18,11 +18,10 @@ Work in progress: more info will be added shortly along with the project updates
 ### Square Wave Generator
 The square wave generator functions as the main core of the circuit, providing both for itself, the sine and the triangle wave generator, and serves as a synchronization source for the sawtooth wave generator.
 
-The square wave generator is based off a typical RC (resistor-capacitor) relaxation oscillator. As the oscillator is powered on, the output of the op-amp goes into saturation (generally, positive but it can go into negative saturation as well). As the capacitor charges to Vcc (in our case, 5V), the output remains the same. With time constant RC, the capacitor begins charging towards 5V. When the capacitor voltage reaches one half of the supply voltage, the op-amp switches into the negative (or positive) saturation. In general, the op-amp functions as a Schmitt trigger. Then, the capacitor begins discharging in the same way. 
+The square wave generator is based off a typical RC (resistor-capacitor) relaxation oscillator. As the oscillator is powered on, the output of the op-amp goes into saturation (generally, positive but it can go into negative saturation as well). As the capacitor charges to Vcc (in our case, 5V), the output remains the same. With time constant RC, the capacitor begins charging towards 5V. When the capacitor voltage reaches one half of the supply voltage, the op-amp switches into the negative (or positive) saturation. In general, the op-amp functions as a Schmitt trigger. Then, the capacitor begins discharging in the same way, repeating the process. 
 
-This particular oscillator has a period of 2.2RC, independent of the supply voltage, and is able to cycle indefinitely provided it has a stable supply voltage.
+This particular oscillator has a period of 2.2RC, independent of the supply voltage, and is able to cycle indefinitely provided it has a stable supply voltage. This can be seen clearly in the 'default-circuit' as it uses ideal universal op-amps. The same functionality is seen in the main circuit using actual commercial op-amps, with a smaller amplitude due to actual constraints from real environment variables such as manufacture error, temperature, etc.
 
-Work in progress
 ### Sine Wave Generator
 Work in progress
 ### Triangle Wave Generator
