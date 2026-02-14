@@ -12,6 +12,8 @@ There are 2 files containing the circut. The first one: 'multi-wave-osc' is the 
 
 All relevant images can be found in the 'images' folder. The folder contains images of the 2 circuits, the waveform outputs of each oscillator (outputs based off the 'main circuit') and the spectrum analysis (FFT plots) of all waveforms together.
 
+I also added a second file, (noted with the number 2) where I will experiment (in the meantime) on some basic optimizations, such as using better filtering methods in the sine wave generator, and attempting to cut out the anti-clipping voltage divider. Work in progress.
+
 Work in progress: more info will be added shortly along with the project updates.
 
 ## Functionality
